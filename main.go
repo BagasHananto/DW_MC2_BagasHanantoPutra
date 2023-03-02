@@ -53,37 +53,10 @@ func main() {
 
 	fmt.Println("===HEROS DIBUFF POWER UP===")
 
-	powerUpNaruto := PowerUp(ProfileNaruto, 2)
+	powerUpNaruto := PowerUp(ProfileNaruto, 1)
 	fmt.Println("Name:", powerUpNaruto.Name)
 	fmt.Println("Health:", powerUpNaruto.Health)
 	fmt.Println("Power:", powerUpNaruto.Power)
 	fmt.Println("Exp:", powerUpNaruto.Exp)
 
-	ProfileSasuke := MakeProfile("Sasuke")
-	fmt.Println("Name:", ProfileSasuke.Name)
-	fmt.Println("Health:", ProfileSasuke.Health)
-	fmt.Println("Power:", ProfileSasuke.Power)
-	fmt.Println("Exp:", ProfileSasuke.Exp)
-
-	fmt.Println("===HEROS DIBUFF POWER UP===")
-
-	powerUpSasuke := PowerUp(ProfileSasuke, 1)
-	fmt.Println("Name:", powerUpSasuke.Name)
-	fmt.Println("Health:", powerUpSasuke.Health)
-	fmt.Println("Power:", powerUpSasuke.Power)
-	fmt.Println("Exp:", powerUpSasuke.Exp)
-
-	ProfileGoku := MakeProfile("Goku")
-	fmt.Println("Name:", ProfileGoku.Name)
-	fmt.Println("Health:", ProfileGoku.Health)
-	fmt.Println("Power:", ProfileGoku.Power)
-	fmt.Println("Exp:", ProfileGoku.Exp)
-
-	fmt.Println("===HEROS DIBUFF POWER UP===")
-
-	powerUpGoku := PowerUp(ProfileGoku, 1)
-	fmt.Println("Name:", powerUpGoku.Name)
-	fmt.Println("Health:", powerUpGoku.Health)
-	fmt.Println("Power:", powerUpGoku.Power)
-	fmt.Println("Exp:", powerUpGoku.Exp)
 }

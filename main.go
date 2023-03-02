@@ -51,12 +51,11 @@ func main() {
 	fmt.Println("Power:", ProfileNaruto.Power)
 	fmt.Println("Exp:", ProfileNaruto.Exp)
 
-	fmt.Println("===HEROS DIBUFF POWER UP===")
+	fmt.Println("===HEROS UDAH AMBIL BUFF===")
 
-	powerUpNaruto := PowerUp(ProfileNaruto, 1)
+	powerUpNaruto := PowerUp(ProfileNaruto, 3)
 	fmt.Println("Name:", powerUpNaruto.Name)
 	fmt.Println("Health:", powerUpNaruto.Health)
 	fmt.Println("Power:", powerUpNaruto.Power)
 	fmt.Println("Exp:", powerUpNaruto.Exp)
-
 }
